@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNGFramework(failed)">
+    <classes>
+      <class name="com.exelenter.testcases.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validUserInvalidPassword"/>
+          <include name="setUp"/>
+          <include name="validUserEmptyPassword"/>
+        </methods>
+      </class> <!-- com.exelenter.testcases.LoginTest -->
+    </classes>
+  </test> <!-- TestNGFramework(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

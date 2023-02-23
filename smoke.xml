@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite">
+    <listeners>
+        <listener class-name="com.exelenter.base.Listener"></listener>
+    </listeners>
+    <test name="Smoke Test">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.exelenter.testcases"></package>
+        </packages>
+    </test>
+</suite>
